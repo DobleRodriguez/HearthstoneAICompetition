@@ -1,4 +1,4 @@
-#region copyright
+﻿#region copyright
 // SabberStone, Hearthstone Simulator in C# .NET Core
 // Copyright (C) 2017-2019 SabberStone Team, darkfriend77 & rnilva
 //
@@ -44,26 +44,6 @@ using SabberStoneBasicAI.AIAgents.magic_number;
 using SabberStoneBasicAI.AIAgents.TYamaoka;
 using SabberStoneBasicAI.AIAgents.BetaStone;
 using SabberStoneBasicAI.AIAgents.BetterGreedyBot;
-
-//User-Created Deck-Playing Track
-using SabberStoneBasicAI.AIAgents.JoachimKnobi;
-using SabberStoneBasicAI.AIAgents.DepthFour_DefenceAgent;
-using SabberStoneBasicAI.AIAgents.FinalAgent;
-using SabberStoneBasicAI.AIAgents.Otto007;
-using SabberStoneBasicAI.AIAgents.MAGEntMann;
-using SabberStoneBasicAI.AIAgents.manuelliebchen;
-using SabberStoneBasicAI.AIAgents.ThreeTypeDynLooker;
-using SabberStoneBasicAI.AIAgents.Clearvoyant_Paladin;
-using SabberStoneBasicAI.AIAgents.M_Priest_2;
-using SabberStoneBasicAI.AIAgents.M_Warrior_5;
-using SabberStoneBasicAI.AIAgents.CopyCats;
-using SabberStoneBasicAI.AIAgents.Richter;
-using SabberStoneBasicAI.AIAgents.c_isnt_sharp;
-using SabberStoneBasicAI.AIAgents.Shrouded;
-using SabberStoneBasicAI.AIAgents.TomPeters;
-
-//Both Tracks
-using SabberStoneBasicAI.AIAgents.Visionpack;
 
 
 namespace SabberStoneBasicAI
@@ -115,7 +95,6 @@ namespace SabberStoneBasicAI
 			agents[19] = new Agent(typeof(TYamaokaAgent), "TYamaokaAgent");									// using SabberStoneBasicAI.AIAgents.TYamaoka;
 			agents[20] = new Agent(typeof(BetaStone), "BetaStone");											// using SabberStoneBasicAI.AIAgents.BetaStone;
 			agents[21] = new Agent(typeof(BetaStone2), "BetaStone2");                                       // using SabberStoneBasicAI.AIAgents.BetaStone;
-			agents[22] = new Agent(typeof(VisionpackAgent), "VisionpackAgent");                             // using SabberStoneBasicAI.AIAgents.Visionpack;
 			
 
 			CompetitionEvaluation.Deck[] decks = new CompetitionEvaluation.Deck[9];
